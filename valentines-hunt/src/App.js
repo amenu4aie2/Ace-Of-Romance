@@ -1,16 +1,16 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import Page from "./Components/Page/Page.jsx";
-// import { BrowswerRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Playground from "./Components/Playground/Playground.jsx";
 function App() {
   return (
-    <div className="App">
-      <Page />
-      {/* <Router>
-
-    <Route path="#" element={<Page/>}></Route>
-    </Router> */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Page />} />
+        <Route path="/chuckles" element={<Playground />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
