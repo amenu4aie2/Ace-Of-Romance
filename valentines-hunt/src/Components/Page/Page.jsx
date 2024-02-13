@@ -38,7 +38,7 @@ function Page() {
                     <div className="text-center4 mt-8"style={{marginTop:'0px'}}>
                         <div className="text-center">
                             <p className="text-sm">🔍</p>
-                            <p className="text-lg font-semibold">{hoveredIndex !== null ? `Card : ${array[hoveredIndex]}` : ''}</p>
+                            <p className="text-lg font-semibold">{hoveredIndex !== null ? `Card : ${array[hoveredIndex- 1]}` : ''}</p>
                             <p className="text-sm">{hoveredIndex !== null ? 'To play with anyone for connection' : ''}</p>
                         </div>
                     </div>
