@@ -19,8 +19,8 @@ function Playground() {
     }, []);
 
     return (
-        <div className="min-h-screen flex flex-col md:flex-row items-center justify-center p-100">
-            <div className="p-200 rounded-lg w-full max-w-md mb-6 md:mb-0 md:mr-6">
+<div className="flex justify-between items-center h-screen">
+            <div className="" style={{ paddingLeft: '200px' }}>
                 <h1 className="text-3xl font-bold mb-4">The Joy of Conversation - Level 1</h1>
                 <div className="mb-4">
                     <div className="text-gray-700 mb-1">
@@ -52,7 +52,8 @@ function Playground() {
                     <button className="bg-gray-300 text-gray-700 px-4 py-2 rounded">Buy different deck</button>
                 </div>
             </div>
-            <div className="absolute w-full max-w-lg" style={{ right: "15%", paddingLeft: '250px' }}>
+            <div className="absolute w-full max-w-lg" style={{ right: "15%", paddingLeft: '100px', top: '50%', transform: 'translateY(-50%)' }}>
+
                 <div style={{ position: "relative", height: "590px", width: "429px" }}>
                     <img src={imagePath} alt="Stack of cards with a card facing front showing a question 'If you could visit any planet, which would you choose and why?'" className="rounded-lg shadow-lg" style={{ position: "absolute", top: '0', left: '0', width: '100%', height: '100%', transform: 'rotate(-5deg)' }}></img>
                     <img src={imagePath} alt="Stack of cards with a card facing front showing a question 'If you could visit any planet, which would you choose and why?'" className="rounded-lg shadow-lg" style={{ position: "absolute", top: '0', left: '0', width: '100%', height: '100%', transform: 'rotate(-10deg)' }} ></img>
