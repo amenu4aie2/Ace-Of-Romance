@@ -1,0 +1,13 @@
+.card-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-inline: auto;
+
+    width: 100%;
+    height: 100%;
+    justify-content:space-around;
+    /* align-self: flex-end; Align the container at the bottom/ */
+  }
+
+
